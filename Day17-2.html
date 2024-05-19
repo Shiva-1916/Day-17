@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        table,th,td {
+            border: 1px solid;
+        }
+        table {
+            text-align: justify;
+            font-size: 16px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        body {
+            padding: 2%;
+            background-color: lightcyan;
+        }
+        th {
+            text-align: center;
+        }
+
+      </style>
+  </head>
+  <body>
+    <table>
+        <h3>Add a border to a table :</h3>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+      </tr>
+      <tr>
+        <td>Peter</td>
+        <td>Griffin</td>
+      </tr>
+      <tr>
+        <td>Lois</td>
+        <td>Griffin</td>
+      </tr>
+    </table>
+
+    <h3>Full-Width Table :</h3>
+    <table>
+        <tr>
+          <th style="width: 100%;">Firstname</th>
+          <th>Lastname</th>
+        </tr>
+        <tr>
+          <td>Peter</td>
+          <td>Griffin</td>
+        </tr>
+        <tr>
+          <td>Lois</td>
+          <td>Griffin</td>
+        </tr>
+      </table>
+
+      <h3>Collapse Table Borders :</h3>
+      <table style="width: 100%; border-collapse: collapse;">
+          <tr>
+            <th>Firstname</th>
+            <th>Lastname</th>
+          </tr>
+          <tr>
+            <td>Peter</td>
+            <td>Griffin</td>
+          </tr>
+          <tr>
+            <td>Lois</td>
+            <td>Griffin</td>
+          </tr>
+        </table>
+
+        <h3>Single Border Around The Table :</h3>
+        <table style="border: 1px solid;width: 100%;">
+            <tr>
+              <th style="border: none;">Firstname</th>
+              <th style="border: none;">Lastname</th>
+            </tr>
+            <tr>
+              <td style="border: none;">Peter</td>
+              <td style="border: none;">Griffin</td>
+            </tr>
+            <tr>
+              <td style="border: none;">Lois</td>
+              <td style="border: none;">Griffin</td>
+            </tr>
+          </table>
+
+
+
+
+  </body>
+</html>
